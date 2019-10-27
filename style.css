@@ -1,0 +1,151 @@
+html,
+body {
+  margin: 0;
+}
+
+header,
+footer {
+  background: #9400d3;
+}
+
+body {
+  background: #dd8fff87;
+}
+
+footer {
+  text-align: center;
+  color: #c8f7c5;
+  font-size: 0.8rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+li {
+  flex: 1 0 40%; /* explanation below */
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-me > p {
+  text-align: justify;
+}
+.fa-Xx {
+  font-size: 5rem;
+}
+
+.find-me {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.profile {
+  border-radius: 100%;
+  margin: auto;
+  display: block;
+  max-width: 40%;
+  height: auto;
+}
+
+.welcome-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #c8f7c5;
+}
+
+.about-me {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.social-icons {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 801px) {
+  header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .profile {
+    max-width: 10%;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  li {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  .fa-Xx {
+    font-size: 5rem;
+  }
+
+  .fa-7x {
+    font-size: 1.75rem;
+  }
+
+  .about-me {
+    padding: 0.5rem;
+  }
+
+  .about-me > p {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .find-me {
+    max-width: 30%;
+    margin: auto;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .social-icons {
+    font-size: 3rem;
+  }
+}
