@@ -5,7 +5,7 @@ body {
 
 header,
 footer {
-  background: #9400d3;
+  background: #d062ff;
 }
 
 body {
@@ -66,7 +66,7 @@ li {
 .welcome-text {
   text-align: center;
   font-size: 2rem;
-  color: #c8f7c5;
+  color: black;
 }
 
 .about-me {
@@ -80,7 +80,7 @@ li {
 
 @media screen and (min-width: 801px) {
   header {
-    padding: 10px;
+    padding: 10px 5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
