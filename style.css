@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-  flex: 1 0 40%; /* explanation below */
+  flex: 1 0 40%;
   margin: 5px;
   display: flex;
   justify-content: center;
@@ -108,7 +108,7 @@ li {
   }
 
   li {
-    flex: 1 0 21%; /* explanation below */
+    flex: 1 0 21%; 
     margin: 5px;
     display: flex;
     justify-content: center;
