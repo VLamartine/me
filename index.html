@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Vitor Lamartine</title>
     <script
       src="https://kit.fontawesome.com/0e64b592f2.js"
@@ -9,67 +11,25 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-
-  <header>
-    <img class="profile" src="images/me.png" alt="Me" />
-    <p class="welcome-text">Bem vindo. Eu sou o Vitor Lamartine</p>
-  </header>
   <body>
-    <div class="container">
-      <div class="about-me">
+    <div class="hero">
+      <picture>
+        <img src="images/me.png" alt="Vitor Lamartine" class="my_image" srcset="">
+      </picture>
+      <div class="header-info">
+        <h1>Vitor Lamartine</h1>
+        <p>Sou desenvolvedor na</p>
+        <a href="https://sys10.com.br" target="_blank">Sys10</a>
+        <p>Você pode me encontrar em: </p>
         <h1>
-          Sobre mim
+          <a class="icon" href="https://linked.in/VitorLamartine" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a class="icon" href="https://github.com/VLamartine">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
         </h1>
-        <p>
-          Formado em informática pelo CEFET-MG. Atualmente cursando o 7º período
-          em Sistemas de Informação pela UFMG.
-        </p>
-      </div>
-      <h1>Minhas habilidades</h1>
-      <ul>
-        <li>
-          <i aria-hidden="true" title="PHP" class="fab fa-php fa-Xx"></i>
-        </li>
-        <li>
-          <i aria-hidden="true" title="Javascript" class="fab fa-js fa-Xx"></i>
-        </li>
-        <li>
-          <i aria-hidden="true" title="Python" class="fab fa-python fa-Xx"></i>
-        </li>
-      </ul>
-
-      <ul>
-        <li>
-          <i
-            aria-hidden="true"
-            title="Laravel"
-            class="fab fa-laravel fa-Xx"
-          ></i>
-        </li>
-        <li>
-          <i
-            aria-hidden="true"
-            title="Angular"
-            class="fab fa-angular fa-Xx"
-          ></i>
-        </li>
-      </ul>
-
-      <h3>Me encontre em</h3>
-      <div class="find-me">
-        <a href="https://www.linkedin.com/in/vitorlamartine/" target="_blank">
-          <i class="fab fa-linkedin-in social-icons"></i>
-        </a>
-        <a href="https://github.com/VLamartine" target="_blank">
-          <i class="fab fa-github social-icons"></i>
-        </a>
-        <a href="https://bitbucket.org/VSLamartine/" target="_blank">
-          <i class="fab fa-bitbucket social-icons"></i>
-        </a>
       </div>
     </div>
   </body>
-  <footer>
-    <span class="footer-text">Feito por mim :P</span>
-  </footer>
 </html>
